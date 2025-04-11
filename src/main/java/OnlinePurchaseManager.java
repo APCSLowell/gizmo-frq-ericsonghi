@@ -26,7 +26,7 @@ return x;
   public boolean hasAdjacentEqualPair()
   {
     for(int i = 0; i < purchases.size() - 1; i++){
-      if(purchases.get(i).equals(purchases.get(i+1)){
+      if(purchases.get(i).equals(purchases.get(i+1))){
      return true;
      }
 }
